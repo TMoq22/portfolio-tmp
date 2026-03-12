@@ -94,8 +94,8 @@ let projects = [
         title: "Auto convert",
         cover: "./assets/images/auto-convert.png",
         summary: "Script bash et php pour convertir des images en webp, xlsx en pdf, ...",
-        description: `comming soon`,
-        skills: `comming soon`,
+        description: `Ce projet a pour objectif d’automatiser le traitement des fichiers pour le site internet du Ministère du Tourisme français. Notre but est de soulager la charge de travail de l'équipe de développeurs web en transformant de manière automatique le flux de fichiers dans les formats web demandés.`,
+        skills: `Gestion de projet, automatisation de tache, optimisation logiciel`,
         technos: ["bash", "php", "docker", "github"],
         status: "Projet étudiant",
 
@@ -107,8 +107,8 @@ let projects = [
         title: "PartFinder",
         cover: "./assets/images/cover-partfinder.png",
         summary: "Site web réalisé avec le module python Flask.",
-        description: `comming soon`,
-        skills: `comming soon`,
+        description: `Ce projet a été réalisé dans le cadre de la spécialité NSI. Il consiste en la création d'une application web le module Python : Flask.`,
+        skills: `- - -`,
         technos: ["html", "css", "js", "py"],
         status: "Projet étudiant",
         links_button: [[`<i class="fa-brands fa-github"></i> GitHub`, "https://github.com/liam-gen/sae1.03"]]
@@ -119,8 +119,8 @@ let projects = [
         title: "PYFIGHT LEGEND",
         cover: "./assets/images/cover-pyfightlegends.png",
         summary: "Jeu réalisé avec la librairie python Pygame.",
-        description: `comming soon`,
-        skills: `comming soon`,
+        description: `Jeu réalisé avec la librairie python Pygame. But du jeu Faire les quêtes disponibles en bas à droite de la map, puis battre le boss final accessible à partir du niveau 4. Pour vous aider, des items sont disponibles à l'achat dans le shop.`,
+        skills: `- - -`,
         technos: ["py"],
         status: "Projet étudiant",
         links_button: [[`<i class="fa-brands fa-github"></i> GitHub`, "https://github.com/TMoq22/PYFIGHT_LEGEND/"]]
