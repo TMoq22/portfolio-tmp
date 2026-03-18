@@ -50,7 +50,7 @@ let projects = [
         id: "portfolio",
         title: "Portfolio",
         cover: "./assets/images/cover-porfolio.png",
-        summary: `Portfolio`,
+        summary: `Création d'un Portfolio personnel et universitaire`,
         description: `comming soon`,
         skills: `comming soon`,
         technos: ["html", "css", "js"],
@@ -62,7 +62,7 @@ let projects = [
         id: "sokoban",
         title: "Sokoban",
         cover: "./assets/images/sokoban-capture1.png",
-        summary: `Jeu Sokoban en C jouable dans un terminal unix`,
+        summary: `Jeu Sokoban en C jouable dans un terminal Unix`,
         description: `
         Ce projet est une implémentation complète du jeu Sokoban, codée en C et jouable directement dans un
             terminal compatible ANSI.

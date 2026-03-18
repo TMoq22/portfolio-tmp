@@ -384,7 +384,7 @@ main header h1 {
 .modal-box {
   background: #101d31;
   padding: 2rem;
-  max-width: 500px;
+  max-width: 600px;
   border-radius: 30px;
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
