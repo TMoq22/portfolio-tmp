@@ -33,14 +33,14 @@ let skills = [
         title: "Systèmes",
         list: [["linux", "Linux"], ["windows", "Windows 10/11"]]
     },
-        {
+    {
         title: "Base de donnée",
         list: [["sqlite", "SQL"], ["postgresql", "PostgreSQL"]]
     },
     {
         title: "Autres",
-        list: [["blender", "Blender"],["unreal", "Unreal Engine"]]
-        
+        list: [["blender", "Blender"], ["unreal", "Unreal Engine"]]
+
     }
 
 
@@ -125,8 +125,61 @@ let projects = [
         status: "Projet étudiant",
         links_button: [[`<i class="fa-brands fa-github"></i> GitHub`, "https://github.com/TMoq22/PYFIGHT_LEGEND/"]]
 
+    },
+    {
+        id: "knight-tour",
+        title: "Knight tour",
+        cover: "./assets/images/knight-tour.png",
+        summary: "Programme python qui resoud le problème du cavalier",
+        description: `---`,
+        skills: `- - -`,
+        technos: ["py"],
+        status: "À venir",
+        colorStatus: '#00a100',
+        links_button: [[`Indisponible`, ""]]
+
+    },
+    {
+        id: "picross-solver",
+        title: "Picross Solver",
+        cover: "./assets/images/No_Image_Available.jpg",
+        summary: "Programme python qui resoud le jeu Picross",
+        description: `---`,
+        skills: `- - -`,
+        technos: ["py"],
+        status: "À venir",
+        colorStatus: '#00a100',
+        links_button: [[`Indisponible`, ""]]
+
+    },
+    {
+        id: "java",
+        title: "Projet java",
+        cover: "./assets/images/No_Image_Available.jpg",
+        summary: "---",
+        description: `---`,
+        skills: `- - -`,
+        technos: ["java"],
+        status: "À venir",
+        colorStatus: '#00a100',
+        links_button: [[`Indisponible`, ""]]
+
+    },
+        {
+        id: "bdd",
+        title: "Projet BDD SQL",
+        cover: "./assets/images/No_Image_Available.jpg",
+        summary: "---",
+        description: `---`,
+        skills: `- - -`,
+        technos: ["postgresql"],
+        status: "À venir",
+        colorStatus: '#00a100',
+        links_button: [[`Indisponible`, ""]]
+
     }
 ]
+
 
 const defaultCover = "./assets/images/No_Image_Available.jpg";
 
@@ -326,4 +379,28 @@ skills.forEach((category) => {
 // TIPPY
 tippy('[data-tippy-content]');
 
+
+const alternance_btn = document.getElementById("alternance-btn");
+alternance_btn.addEventListener("click", () => {
+    new WinBox({
+        title: "alternance",
+        x: "center",
+        y: "center",
+        modal: true,
+        width: "90%",
+        height: "85%",
+        class: "winbox-alternance",
+        html: ` 
+            <div> 
+                <h3>Information alternance</h3>
+                <p>Je suis à recherche d'une alternance en developpement Web/logiciel de 2 ans avec un rythme de 3 mois IUT, 3 à 5 mois entreprise</p>
+
+                
+            </div >
+            `
+    });
+    tippy('[data-tippy-content]');
+
+
+});
 
