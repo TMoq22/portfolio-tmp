@@ -1,177 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
-<!--  Titouan moquet 2026 -->
-<!--  Version temporaire -->
 
 <head>
-    <meta charset="utf-8">
-    <title>Portfolio - Titouan Moquet</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Titouan Moquet</title>
+    <link rel="icon" type="image/png" href="favicon-96x96.png" />
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 50px;
+        }
 
-    <!-- CSS de Tippy -->
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
-
-    <!-- CSS perso -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- FontAwesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet"
-        type="text/css">
-
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon//apple-touch-icon.png" />
-
+        .btn {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="cursor" data-cursor></div>
+    <h1>Portfolio</h1>
+    <p>Mon site est maintenant disponible sur son adresse final !</p>
 
-    <div id="temporary-hosting" class="modal-overlay">
-        <div class="modal-box">
-            <h2>Information</h2>
-
-            <p>
-                Ce site est actuellement hébergé temporairement sur une plateforme
-                gratuite dans l’attente de la mise en place d’un hébergement personnel.
-                La version final du portfolio arrive bientôt.
-            </p>
-
-            <p>
-                Une fois la migration effectuée, ce site redirigera
-                vers sa nouvelle adresse (titouanmoquet.fr).
-            </p>
-            <p>
-                Contact : contact@titouanmoquet.fr
-            </p>
-
-            <button id="close-modal" class="btn ghost">Fermer</button>
-        </div>
-    </div>
-
-    <div class="tooltips-info">
-        <span>Page en cours de création !</span>
-    </div>
-
-    <!--HEADER-->
-    <header>
-        <nav class="navbar">
-            <div class="nav-header">
-                <a class="link-home" href="#home">Titouan Moquet</a>
-                <label for="menu-toggle" class="burger">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
-            </div>
-
-            <input type="checkbox" id="menu-toggle">
-
-            <div class="nav-links">
-                <a href="#projects">Projets</a>
-                <a href="#competences">Compétences</a>
-                <a href="#contact">Contact</a>
-                <a href="assets/Titouan_Moquet_CV.pdf" download="Titouan_Moquet_CV">Mon CV</a>
-                <a href="https://github.com/TMoq22" class="icon"><i class="fa-brands fa-github"></i></a>
-            </div>
-        </nav>
-    </header>
-    <!--MAIN-->
-    <main id="home">
-        <header class="liquid-bg">
-            <h1 class="hero-text" id="hero-text"><span class="accent-title">Titouan</span> Moquet</h1>
-            <div>
-
-                <p>Développeur full stack</p>
-                <p>Actuellement étudiant à l'IUT de Lannion en 1er année de <span class="formation">BUT
-                        Informatique</span>
-                    à Lannion</p>
-            </div>
-            <button class=" btn ghost" id="alternance-btn">Info alternance</button>
-
-        </header>
-
-        <!--<section id="apropos">
-<h2>A PROPOS DE MOI</h2> 
-<p>
-Salut moi c'est <span class="name">Titouan Moquet</span>
-</p>
-<p> Je suis actuellement étudiant à l'IUT de Lannion en 1er année de <span class="formation">BUT Informatique</span>.</p>
-Je suis passionné par l'Informatique 
-vous trouverez ici un aperçu de mes compétences et un aperçu des projets que j'ai pu réaliser.
-N'hésitez pas à me contacter.</section> -->
-
-        <!-- SKILLS -->
-        <section id="competences">
-            <h2>Compétences</h2>
-            <div class="competences-container">
-                <!-- Remplissage en JS -->
-            </div>
-
-        </section>
-
-        <!-- PROJECTS -->
-        <section id="projects" class="projects">
-            <!-- FAIRE TRUC AVEC MARQUÉ ETUDIANT OU NON EN HAUT A DROITE (+= comme liam avec ces en cours )-->
-            <h2>Projets</h2>
-            <div class="projectsGrid" id="projectsGrid">
-                <!-- Remplissage en JS -->
-            </div>
-        </section>
-        <!-- LINKS -->
-        <!-- <section id="links">
-            <h2>Liens</h2>
-            <p>voicis des liens utiles : github discord ...</p>
-            <a href="https://github.com/TMoq22">GitHub</a>
-            <a href="#" class="indisponible" data-tippy-content="Indisponible">Discord</a>
-        </section> -->
-        <!-- CONTACT -->
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Vous pouvez m’écrire à : <a href="mailto:contact@titouanmoquet.fr">contact@titouanmoquet.fr</a>
-            </p>
-        </section>
-    </main>
-
-    <div class="alternance">
-        <div class="texte">
-            <p>
-                À la recherche d'une alternance dans le secteur du développement Web/Logiciel pour une durée de 2 ans
-                —
-                À la recherche d'une alternance dans le secteur du développement Web/Logiciel pour une durée de 2 ans
-            </p>
-        </div>
-    </div>
-
-    <footer>
-        <div class="credits">
-            <p>© 2025 Titouan Moquet</p>
-            <div>
-                <a href="pages/legal.html">Mentions Légales</a>
-                <a href="pages/about.html">A propos</a>
-            </div>
-
-        </div>
-    </footer>
-
-    <!-- JS de Tippy -->
-    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
-    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.min.js"></script>
-
-    <!-- JS WinBow -->
-    <script src="js/winbox.bundle.min.js"></script>
-
-    <!-- JS perso -->
-    <script src="js/script.js"></script>
-    <script src="js/script-index.js"></script>
-
-    <script>
-        const modal = document.getElementById("temporary-hosting");
-        const closeBtn = document.getElementById("close-modal");
-
-        closeBtn.addEventListener("click", () => {
-            modal.classList.add("modal-hidden");
-        });
-    </script>
-
-
+    <br>
+    <a href="https://titouanmoquet.fr" class="btn">Accéder au portfolio</a>
 </body>
 
 </html>
